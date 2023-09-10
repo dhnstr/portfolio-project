@@ -16,13 +16,13 @@ const Project = () => {
             In my journey as a programmer, I've created projects and tackled bugs, all with the aim of making a dent in the digital universe. These experiences have been instrumental in my growth as a developer, allowing me to continually push boundaries and expand my skill set.
             </p>
             <div className='grid sm:grid-cols-2 gap-12'>
-                <Projectitem img={web3} title='Portfolio Website' description='ReactJs, Tailwind CSS'/>
-                <Projectitem img={web1} title='Lingkar Budaya Web' description='Laravel, HTML, CSS, PHP'/>
-                <Projectitem img={web4} title='Genetic Algorithm' description='Python'/>
-                <Projectitem img={web5} title='FMM Prospect System' description='CodeIgniter, PHP, SQL Server'/>
+                <Projectitem img={web3} title='Portfolio Website' description='ReactJs, Tailwind CSS' textClass='text-base sm:text-sm md:text-lg'/>
+                <Projectitem img={web1} title='Lingkar Budaya' description='Laravel, HTML, CSS, PHP' textClass='text-base sm:text-sm md:text-lg'/>
+                <Projectitem img={web4} title='Genetic Algorithm' description='Python' textClass='text-base sm:text-sm md:text-lg'/>
+                <Projectitem img={web5} title='FMM Prospect System' description='CodeIgniter, PHP, SQL Server' textClass='text-base sm:text-sm md:text-lg'/>
                 {/* <Projectitem img={} title=''/>
                 <Projectitem img={} title=''/> */}
-            </div>
+            </div>  
         </div>
     </div>
     )
