@@ -6,25 +6,29 @@ const data = [
         year: 2022,
         title: 'Mathematic Discrete Asistant Lecturer',
         duration: 'Jun 2022 - Sept 2022',
-        details: 'Conducting task evaluation and summarization, performing testing on online quiz questions,and assisting and answering student questions on an online forum.'
+        details: 'Conducting task evaluation and summarization, performing testing on online quiz questions,and assisting and answering student questions on an online forum.',
+        place: "Telkom University, Bandung"
     },
     {
         year: 2023,
         title: 'Practicum Assistant for Computer Network',
         duration: 'Mar 2023 - Jun 2023',
-        details: 'Conducting assessments on laboratory journals, explaining laboratory materials, providing assistance to students during major assignments'
+        details: 'Conducting assessments on laboratory journals, explaining laboratory materials, providing assistance to students during major assignments',
+        place: "Telkom University, Bandung"
     },
     {
         year: 2023,
         title: 'Practicum Assistant for Operating System',
         duration: 'Mar 2023 - Jun 2023',
-        details: 'Conducting assessments on laboratory journals, explaining laboratory materials, providing assistance to students during major assignments'
+        details: 'Conducting assessments on laboratory journals, explaining laboratory materials, providing assistance to students during major assignments',
+        place: "Telkom University, Bandung"
     },
     {
         year: 2023,
         title: 'IT Deveplopment',
         duration: 'Aug 2023 - Sept 2023',
-        details: 'Troubleshooting web applications Using CodeIgniter framework, created and developed a CRUD login system for an enterprise project using CodeIgniter framework.'
+        details: 'Troubleshooting web applications Using CodeIgniter framework, created and developed a CRUD login system for an enterprise project using CodeIgniter framework.',
+        place: "PT. Fajar Mas Murni, Bekasi"
     },
 ]
 const Work = () => {
@@ -38,6 +42,7 @@ const Work = () => {
                     year={item.year} 
                     title={item.title} 
                     duration={item.duration} 
+                    place={item.place}
                     details={item.details}
                     />
                 ))}
