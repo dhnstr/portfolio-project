@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const Workitem = ({year, title, duration, place,    details}) => {
+const Workitem = ({year, title, duration, place, details}) => {
     return (
     <ol className='flex flex-col md:flex-row relative border-l border-stone-200'>
         <il className='mb-16 ml-4'> 

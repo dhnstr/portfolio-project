@@ -5,9 +5,11 @@ import Work from './components/Work';
 import Project from './components/Project';
 import Page from './components/Page';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
+
 
 function App() {
-  console.log('Navbar component imported successfully'); // Add this line
+  console.log('Navbar component imported successfully'); 
   return (
     <div>
       <Navbar />
@@ -15,7 +17,8 @@ function App() {
       <Page />
       <Work />
       <Project />
-      <Contact />
+      <Contact /> 
+      <Footer />
     </div>
   );
 }

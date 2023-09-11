@@ -3,7 +3,7 @@ import profileImage from '../assets/profile.jpg'; // Import your profile image
 
 function About() {
     return (
-        <div className="flex flex-col md:flex-row-reverse md:gap-12 lg:gap-16 px-4 bg-white dark:bg-neutral-900 ">
+        <div className="flex flex-col md:flex-row-reverse md:gap-12 lg:gap-16 px-4 bg-white dark:bg-neutral-900">
             <div className="max-w-[1040px] m-auto p-4 space-y-2 lg:space-y-3">
                 <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl text-neutral-800 dark:text-neutral-100">
                     About me

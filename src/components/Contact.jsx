@@ -29,10 +29,10 @@ const Contact = () => {
                     </div>
                     <div className='flex flex-col py-2'>
                         <label className='uppercase text-sm py-2 text-neutral-600 dark:text-neutral-400'>Message</label>
-                        <textarea className='border-2 rounded-lg p-3 border-white/70 bg-gray-200' rows={10} name='message'></textarea>
+                        <textarea className='border-2 rounded-lg p-3 border-white/70 bg-gray-200' rows={6} name='message'></textarea>
                     </div>
                     {/* Add the submit button */}
-                    <button type="submit" className='bg-gray-700 text-neutral-800 dark:text-neutral-100 mt-4 w-full p-4 rounded-lg'>
+                    <button type="submit" className='bg-gray-700 text-neutral-800 dark:text-neutral-100 mt-4 w-full p-4 rounded-lg mb-8'>
                         Send Message
                     </button>
                 </form>

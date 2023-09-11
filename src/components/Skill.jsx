@@ -4,7 +4,7 @@ import skills from './data/skills.json';
 const Skill = () => {
     return (
         <div className="px-4 sm:space-y-7 bg-white dark:bg-neutral-900 py-16">
-            <div className="max-w-[1040px] mx-auto p-4 lg:px-8 space-y-4 lg:space-y-7">
+            <div className="max-w-[1040px] mx-auto p-4 space-y-2 lg:space-y-3">
                 <div className="flex items-center justify-between mb-4"> {/* Adjusted margin here */}
                     <span className="flex items-center gap-2 font-bold text-2xl md:text-3xl lg:text-4xl text-neutral-800 dark:text-neutral-100">
                         <p>Skillset</p>

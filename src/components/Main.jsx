@@ -1,6 +1,7 @@
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
-import { FaTwitter, FaFacebookF, FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaFacebookF, FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
+import {BiLogoGmail} from 'react-icons/bi';
 import { AiFillInstagram } from 'react-icons/ai';
 import resume from '../../src/assets/Resume.pdf'
 
@@ -31,8 +32,8 @@ export const Main = () => {
                         />
                     </h2>
                     <div className='flex justify-between pt-6 max-w-[200px] w-full'>
-                        <a href='https://twitter.com/siapaage' target='_blank' rel='noopener noreferrer' className='cursor-pointer'>
-                            <FaTwitter size={20} className='icon' />
+                        <a href='mailto:satriodhanu123@gmail.com' target='_blank' rel='noopener noreferrer' className='cursor-pointer'>
+                            <BiLogoGmail size={20} className='icon' />
                         </a>
                         <a href='https://www.facebook.com/dhanu.satriod' target='_blank' rel='noopener noreferrer' className='cursor-pointer'>
                             <FaFacebookF size={20} className='icon' />
