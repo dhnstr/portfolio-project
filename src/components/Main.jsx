@@ -3,6 +3,7 @@ import { TypeAnimation } from 'react-type-animation';
 import { FaFacebookF, FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
 import {BiLogoGmail} from 'react-icons/bi';
 import { AiFillInstagram } from 'react-icons/ai';
+import {BsFillCloudDownloadFill} from 'react-icons/bs';
 import resume from '../../src/assets/Resume.pdf'
 
 export const Main = () => {
@@ -11,7 +12,9 @@ export const Main = () => {
             <img className='w-full h-screen object-cover object-left scale-x-[-1]' src='https://cdn.discordapp.com/attachments/1086299204596547584/1148931104473104454/1692108277222.jpg' alt="Background"></img>
             <div className='w-full h-screen absolute top-0 left-0 bg-white/50'>
                 <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center text-center'>
-                    <h1 className='sm:text-5xl text-4xl font-bold text-gray-800'>I'm Dhanu Satrio Darjanto</h1>
+                    <h1 className='sm:text-5xl text-4xl font-bold text-gray-800'>
+                        I'm <span className="text-white">Dhanu</span> Satrio <span className="text-white">Darjanto</span>
+                    </h1>
                     <h2 className='flex sm:text-4xl text-xl pt-4 text-gray-800'>
                         I'm a{' '}
                         <TypeAnimation
@@ -23,6 +26,16 @@ export const Main = () => {
                                 'Programmer',
                                 1000,
                                 'Tech Enthusiast',
+                                1000,
+                                'Coding Wizard',
+                                1000,
+                                'Tech Geek',
+                                1000,
+                                'Code Composer',
+                                1000,
+                                'Software Engineer',
+                                1000,
+                                'Code Ninja',
                                 1000
                             ]}
                             wrapper='div'
@@ -49,10 +62,11 @@ export const Main = () => {
                         </a>
                     </div>
                     <a href={resume} download='CV.pdf' className='cursor-pointer'>
-                        <button className='dark:bg-neutral-900 hover:bg-neutral-600 text-white font-bold py-2 px-4 mt-5 rounded'>
-                            Download Resume
+                        <button className='dark:bg-neutral-900 hover:bg-neutral-600 text-white font-bold py-2 px-4 mt-5 rounded flex items-center'>
+                            <BsFillCloudDownloadFill className="mr-2" />
+                            Download CV
                         </button>
-                    </a>
+                    </a>                                                           
                 </div>
             </div>
         </div>
